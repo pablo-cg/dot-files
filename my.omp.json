@@ -75,7 +75,7 @@
                 {
                     "foreground": "#F4B860",
                     "properties": {
-                        "style": "amarillo",
+                        "style": "round",
                         "template": "\u27e8{{ .FormattedMs }}\u27e9",
                         "threshold": 0
                     },
