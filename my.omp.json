@@ -31,7 +31,7 @@
                     "background_templates": [
                         "{{ if or (.Working.Changed) (.Staging.Changed) }}#4A5859{{ end }}",
                         "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#fcaf17{{ end }}",
-                        "{{ if gt .Ahead 0 }}#95ffa4{{ end }}",
+                        "{{ if gt .Ahead 0 }}#F4D6CC{{ end }}",
                         "{{ if gt .Behind 0 }}#C83E4D{{ end }}",
                         "{{ if .UpstreamGone }}#d1c7b7{{ end }}"
                     ],
